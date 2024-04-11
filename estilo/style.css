@@ -19,3 +19,19 @@
 
 
 }
+
+body, html {
+    background-color: var(--cor3);
+}
+
+header {
+    background-color: var(--cor4);
+}
+
+main {
+    max-width: 460px;
+}
+
+footer {
+    background-color: var(--cor6);
+}
