@@ -17,7 +17,7 @@
     --cor1: #C5D97E;
     --cor2: #F2BE5C;
     --cor3: #d9bb9696;
-    --cor4: #734B3D;
+    --cor4: #734b3dbb;
     --cor5: #F2F2F2;
     --cor6: #89878C;
 
@@ -39,8 +39,17 @@ header {
     background-color: var(--cor4);
     margin: auto;
     width: 720px;
+    padding: 12px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+header h1 {
+    font-family: var(--font1);
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: double overline 2px #cfc3ac;
+    color: var(--cor1);
 }
 
 main {
