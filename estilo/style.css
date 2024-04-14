@@ -4,6 +4,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 
 
 
@@ -17,12 +20,13 @@
     --cor1: #C5D97E;
     --cor2: #F2BE5C;
     --cor3: #d9bb9696;
-    --cor4: #734b3dbb;
+    --cor4: #734b3d62;
     --cor5: #F2F2F2;
     --cor6: #89878C;
 
     --font1: "Sawarabi Mincho", serif;
     --font2: "Old Standard TT", serif;
+    --font3: "Glass Antiqua", cursive;
 
 
 }
@@ -38,26 +42,62 @@ body, html {
 header {
     background-color: var(--cor4);
     margin: auto;
-    width: 720px;
+    width: 504px;
     padding: 12px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    margin-bottom: 9px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
 }
 
 header h1 {
     font-family: var(--font1);
     font-weight: bolder;
     text-align: center;
-    text-decoration: double overline 2px #cfc3ac;
+    text-decoration: double underline 1px #837760;
+    text-shadow: 1px 2px 4px #837760;
     color: var(--cor1);
 }
 
+header p {
+    font-size: 1.1em;
+    text-align: center;
+    text-shadow: 4px 5px 7px rgba(0, 0, 0, 0.74);
+    font-family: var(--font3);
+}
+
+header p:hover {
+    text-decoration: underline solid var(--cor2);
+    text-shadow: 12px 2px 7px rgba(0, 0, 0, 0.521);
+}
+
+header > div {
+    background-color: var(--cor2);
+    height: 40px;
+    margin-bottom: -11px;
+    position: relative;
+}
+
+header ul {
+    margin: 25px;
+    padding: 15px;
+}
+
+header a {
+    background-color: var(--cor6);
+    margin-top: 18px;
+    margin-left: 20px;
+    padding: 6px;
+}
+
 main {
-    max-width: 520px;
+    max-width: 480px;
     background-color: rgba(255, 255, 255, 0.678);
     margin: auto;
     padding: 12px;
     box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.596);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 main > section {
