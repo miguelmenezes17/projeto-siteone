@@ -42,7 +42,7 @@ body, html {
 header {
     background-color: var(--cor4);
     margin: auto;
-    width: 460px;
+    width: fit-content;
     padding: 12px;
     margin-bottom: 9px;
     border-bottom-left-radius: 5px;
@@ -91,7 +91,7 @@ header a {
 }
 
 main {
-    max-width: 480px;
+    max-width: 460px;
     background-color: rgba(255, 255, 255, 0.678);
     margin: auto;
     padding: 12px;
