@@ -42,7 +42,8 @@ body, html {
 header {
     background-color: var(--cor4);
     margin: auto;
-    width: fit-content;
+    max-width: 460px;
+    min-width: 360px;
     padding: 12px;
     margin-bottom: 9px;
     border-bottom-left-radius: 5px;
