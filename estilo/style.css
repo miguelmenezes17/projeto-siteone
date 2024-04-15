@@ -18,7 +18,7 @@
 
 :root {
     --cor1: #C5D97E;
-    --cor2: #F2BE5C;
+    --cor2: #d3ab6050;
     --cor3: #d9bb9696;
     --cor4: #734b3d62;
     --cor5: #F2F2F2;
@@ -72,23 +72,30 @@ header p:hover {
     text-shadow: 12px 2px 7px rgba(0, 0, 0, 0.521);
 }
 
-header > div {
-    background-color: var(--cor2);
-    height: 40px;
-    margin-bottom: -11px;
-    position: relative;
+nav {
+    background-color: #d3cabf2f;
+    margin: 0px -11px -12px;
+    padding: 12px 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
-header ul {
-    margin: 25px;
-    padding: 15px;
+nav > ul > a {
+    border: 1px solid black;
+    padding: 11px 20px;
+    background-color: #b38e32cb;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.295);
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 8px;
 }
 
-header a {
-    background-color: var(--cor6);
-    margin-top: 18px;
-    margin-left: 20px;
-    padding: 6px;
+nav > ul > a:hover {
+    background-color: #725b21f8;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 1px 4px black;
+    transition-duration: 0.4s;
 }
 
 main {
