@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+Pequenas Telas: até 600px;
+
+Celular: De 600px até 768;
+
+Tablet: de 768 a 992px;
+
+Desktop: de 992 a 1200 px;
+
+Grandes Telas: Acima de 1200px;
+*/
+
+@media screen and (max-width: 600px) {
+    header {
+        max-width: 390px;
+    }
+
+    nav {
+        height: 96px;
+    }
+
+    nav > ul > a {
+        line-height: 50px;
+        display: flexbox;
+    }
+}
