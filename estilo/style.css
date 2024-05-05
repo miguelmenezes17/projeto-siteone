@@ -8,6 +8,20 @@
 
 
 
+/* TIPICAL DEVICE BREAKPOINTS - Sempre pesquisar sobre antes da fazer um site.
+--------------------------
+Pequenas Telas: até 600px;
+
+Celular: De 600px até 768;
+
+Tablet: de 768 a 992px;
+
+Desktop: de 992 a 1200 px;
+
+Grandes Telas: Acima de 1200px;
+
+*/
+
 
 
 * {
@@ -68,37 +82,21 @@ header p {
     line-height: 23px;
 }
 
-header p:hover {
-    text-decoration: underline solid var(--cor2);
-    text-shadow: 12px 2px 7px rgba(0, 0, 0, 0.521);
-}
-
 nav {
-    background-color: #d3cabf2f;
+    background-color: #d3cabf2d;
     margin: 0px -11px -12px;
     padding: 12px 20px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
+nav > ul {
+    border: 1px solid black;
+}
+
 nav > ul > a {
     border: 1px solid black;
-    padding: 11px 20px;
-    background-color: #b38e32cb;
-    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.295);
-    text-decoration: none;
-    color: white;
-    font-size: 1.1em;
-    border-radius: 8px;
 }
-
-nav > ul > a:hover {
-    background-color: #725b21f8;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 1px 4px black;
-    transition-duration: 0.4s;
-}
-
 main {
     max-width: 460px;
     background-color: rgba(255, 255, 255, 0.678);
