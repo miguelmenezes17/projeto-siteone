@@ -91,12 +91,30 @@ nav {
 }
 
 nav > ul {
-    border: 1px solid black;
+    border: 2px solid black;
+    background-color: #c5d97eab;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+nav > ul:hover {
+
 }
 
 nav > ul > a {
     border: 1px solid black;
+    position: relative;
+    left: 6%;
+    right: 6%;
+    padding: 12px;
 }
+
+nav > ul > a:hover {
+    background-color: #faffea;
+    transition-duration: 0.8s;
+    box-shadow: 3px 6px 7px solid black;
+}
+
 main {
     max-width: 460px;
     background-color: rgba(255, 255, 255, 0.678);
