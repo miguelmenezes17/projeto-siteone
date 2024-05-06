@@ -91,10 +91,11 @@ nav {
 }
 
 nav > ul {
-    border: 2px solid black;
-    background-color: #c5d97eab;
+    border: 2px solid rgba(0, 0, 0, 0.418);
+    background-color: #c5d97ebe;
     border-radius: 12px;
     padding: 20px;
+    border-radius: 22.5px;
 }
 
 nav > ul:hover {
@@ -102,15 +103,17 @@ nav > ul:hover {
 }
 
 nav > ul > a {
-    border: 1px solid black;
+    border: 1px solid rgba(119, 119, 119, 0.356);
     position: relative;
-    left: 6%;
-    right: 6%;
+    left: 1%;
+    right: 8%;
     padding: 12px;
+    border-radius: 22px;
 }
 
 nav > ul > a:hover {
     background-color: #faffea;
+    box-shadow: 4px 5px 3px #c5d97e49;
     transition-duration: 0.8s;
     box-shadow: 3px 6px 7px solid black;
 }
