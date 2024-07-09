@@ -91,15 +91,15 @@ nav#menu ul li {
 }
 
 nav#menu ul li a {
-    color: black;
-    padding: 6px 5px 4px 5px;
+    color: rgb(255, 255, 255);
+    padding: 7px 5px 4px 5px;
     text-decoration: none;
-    background-color: blanchedalmond;
-    border-bottom: 3px solid blanchedalmond;
+    background-color: #494949;
+    border-bottom: 3px solid #494949;
 }
 
 nav#menu ul li a:hover {
-    background-color: burlywood;
+    background-color: rgb(119, 93, 58);
     border-bottom: 3px solid red;
 }
 
@@ -149,4 +149,40 @@ main > section.box2 > div#foto2 {
 picture.foto-dois {
     position: absolute;
     height: 220px;
+}
+
+footer {
+    height: 80px;
+    background-color: gray;
+    text-align: center;
+}
+
+footer p {
+    position: relative;
+    width: 230px;
+    margin: auto;
+    top: 40%;
+}
+
+footer p:hover {
+    color: wheat;
+    cursor: pointer;
+}
+
+section.box1 {
+    background-color: #66430e7e;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+section.box3 {
+    background-color: #66430e7e;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+}
+
+section.box3 > article > h3 {
+    text-align: center;
 }
