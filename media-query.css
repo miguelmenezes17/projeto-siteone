@@ -12,17 +12,8 @@ Desktop: de 992 a 1200 px;
 Grandes Telas: Acima de 1200px;
 */
 
-@media screen and (max-width: 600px) {
-    header {
-        max-width: 390px;
-    }
-
-    nav {
-        height: 96px;
-    }
-
-    nav > ul > a {
-        line-height: 50px;
-        display: flexbox;
+@media screen and (min-width: 600px) {
+    main {
+        max-width: 500px;
     }
 }
